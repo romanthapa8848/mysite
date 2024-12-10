@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #dcdcdc;
+  background-color: #dcdcdc; /* Header background color */
   position: sticky;
   top: 0;
   width: 100%;
@@ -69,6 +69,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
+    background-color: #dcdcdc; /* Ensure the same header color */
   }
 
   .logo {
@@ -81,17 +82,18 @@ header {
     height: 30px;
   }
 
+  /* Adjust the menu to start below the header */
   .main-nav ul {
     display: none;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; /* Background for the menu */
     width: 100%;
     text-align: center;
     position: fixed;
-    top: 52px; /* Position the menu just below the header */
+    top: 52px; /* Start right after the header */
     left: 50%;
     transform: translateX(-50%);
     height: 100%;
