@@ -1,2 +1,20 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<header>
+  <!-- Link to Header CSS -->
+  <link rel="stylesheet" href="css/header.css" />
+
+  <!-- Logo Section -->
+  <div class="logo">
+    <a href="/">
+      <img src="images/logo.png" alt="Site Logo" />
+    </a>
+  </div>
+
+  <!-- Navigation Menu -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
