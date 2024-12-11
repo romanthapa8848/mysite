@@ -15,7 +15,7 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: grey;
+  background-color: whitesmoke;
   z-index: 1000;
   border: none;
   box-shadow: none; /* No shadow or borders */
@@ -42,7 +42,7 @@ header {
 }
 
 .main-nav a:hover {
-  color: white; /* Subtle blue hover effect */
+  color: blue; /* Subtle blue hover effect */
 }
 
 /* Hamburger Menu */
