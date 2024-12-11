@@ -45,6 +45,11 @@ header {
   color: #0073e6; /* Subtle blue hover effect */
 }
 
+/* Hamburger Menu */
+.menu-toggle {
+  display: none; /* Hide the hamburger menu on desktop */
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
   /* Adjust header for mobile */
@@ -80,7 +85,7 @@ header {
 
   /* Hamburger Menu */
   .menu-toggle {
-    display: flex;
+    display: flex; /* Only show the hamburger menu on mobile */
     flex-direction: column;
     justify-content: space-between;
     width: 25px;
