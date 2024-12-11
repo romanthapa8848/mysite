@@ -15,7 +15,7 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: transparent; /* Transparent for a seamless design */
+  background-color: grey;
   z-index: 1000;
   border: none;
   box-shadow: none; /* No shadow or borders */
@@ -65,11 +65,13 @@ header {
     gap: 10px;
     position: fixed;
     top: 60px; /* Align right below the header */
-    left: 0;
-    width: 100%;
+    right: 0; /* Start from the right side */
+    height: 100vh; /* Full vertical height */
+    width: 50%; /* Half of the horizontal screen */
     background-color: #f9f9f9; /* Light background for the menu */
-    padding: 20px 0;
+    padding: 20px 10px;
     z-index: 999;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
   }
 
   .main-nav ul.show {
