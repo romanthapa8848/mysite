@@ -10,121 +10,91 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background-color: #dcdcdc; /* Header background color */
+  padding: 0 20px; /* Minimal horizontal spacing */
+  height: 60px; /* Set consistent header height */
   position: sticky;
   top: 0;
   width: 100%;
+  background-color: transparent; /* Transparent for a seamless design */
   z-index: 1000;
+  border: none;
+  box-shadow: none; /* No shadow or borders */
 }
 
 /* Logo Styling */
 .logo img {
-  height: 35px;
+  height: 40px; /* Default desktop logo size */
 }
 
-/* Hamburger Menu Button (hidden on desktop) */
-.menu-toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 20px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  position: absolute;
-  right: 20px;
-}
-
-.menu-toggle .line {
-  width: 100%;
-  height: 3px;
-  background-color: #333;
-  transition: 0.3s;
-}
-
-/* Navigation Menu Styling */
+/* Navigation Menu */
 .main-nav ul {
   display: flex;
   list-style: none;
-  gap: 15px;
+  gap: 20px; /* Spacing between links */
 }
 
 .main-nav a {
   text-decoration: none;
   font-size: 16px;
-  color: #222;
+  color: #333; /* Dark grey text */
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .main-nav a:hover {
-  color: #0056b3;
+  color: #0073e6; /* Subtle blue hover effect */
 }
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+  /* Adjust header for mobile */
   header {
     justify-content: center;
     align-items: center;
-    position: relative;
-    background-color: #dcdcdc; /* Ensure the same header color */
   }
 
-  .logo {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
+  /* Adjust logo size for mobile */
   .logo img {
-    height: 30px;
+    height: 30px; /* Smaller logo size for mobile */
   }
 
-  /* Adjust the menu to start below the header */
+  /* Mobile navigation menu */
   .main-nav ul {
     display: none;
     flex-direction: column;
     gap: 10px;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #f1f1f1; /* Background for the menu */
-    width: 100%;
-    text-align: center;
     position: fixed;
-    top: 52px; /* Start right after the header */
-    left: 50%;
-    transform: translateX(-50%);
-    height: 100%;
+    top: 60px; /* Align right below the header */
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9; /* Light background for the menu */
+    padding: 20px 0;
     z-index: 999;
-    transition: transform 0.3s ease;
   }
 
-  /* Show nav links when hamburger menu is clicked */
   .main-nav ul.show {
     display: flex;
-    transform: translateX(0); /* Make it slide in */
   }
 
+  /* Hamburger Menu */
   .menu-toggle {
     display: flex;
-    position: absolute;
-    right: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute; /* Position it freely */
+    right: 10px; /* Push it to the far right */
+    top: 50%; /* Center it vertically */
+    transform: translateY(-50%); /* Align perfectly with the header's height */
   }
 
-  /* Make the menu take up half the screen horizontally */
-  .main-nav ul.show {
-    width: 50vw; /* Half the screen width */
+  .menu-toggle .line {
+    width: 100%;
+    height: 3px;
+    background-color: #333; /* Dark grey */
   }
-
-  /* Hide menu when scrolling */
-  .main-nav.hide {
-    transform: translateX(100%);
-  }
-}
-
-/* Scroll functionality to hide the menu when scrolling */
-body {
-  overflow-x: hidden; /* Prevent horizontal scrolling when the menu is shown */
 }
