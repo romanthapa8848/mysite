@@ -19,19 +19,11 @@ body {
   min-height: 100%; /* Ensure the wrapper takes the full height */
 }
 
-/* Header */
-header {
-  background-color: #007bff; /* Example header color */
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
 /* Main Content */
 main {
   flex-grow: 1; /* Ensures the main section grows to fill available space */
   padding: 20px;
-  background-color: #f4f4f4; /* Light gray background for content */
+  background-color: white; /* Light gray background for content */
 }
 
 /* Footer */
