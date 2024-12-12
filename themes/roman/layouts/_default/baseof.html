@@ -4,8 +4,8 @@
   dir="{{ or site.Language.LanguageDirection `ltr` }}"
 >
   <head>
-    {{ partial "head.html" . }}
-    <link rel="stylesheet" href="css/baseof.css" />
+    {{ partial "head.html" . }} <link rel="stylesheet" href="{{ "css/baseof.css"
+    | relURL }}">
   </head>
   <body>
     <div class="wrapper">
