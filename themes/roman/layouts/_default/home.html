@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="home-content">
   {{ .Content }} {{ range (sort site.RegularPages "Date" "desc") }}
-  <!-- Sort by Date in descending order -->
+  <!-- Sort by Date and time in descending order -->
   <div class="blog-post">
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     <div class="summary">{{ .Content | plainify | truncate 200 }}...</div>
