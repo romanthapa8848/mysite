@@ -69,6 +69,20 @@ body {
     padding-bottom: 10px;
 }
 
+/* Styling the "Read More" link */
+.read-more {
+    font-size: 0.9em; /* Slightly smaller than the summary text */
+    color: #0066cc;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Change link color on hover */
+.read-more:hover {
+    color: #ff6600;
+}
+
 /* Mobile-specific styles: One box per row */
 @media (max-width: 768px) {
     .main-content {
