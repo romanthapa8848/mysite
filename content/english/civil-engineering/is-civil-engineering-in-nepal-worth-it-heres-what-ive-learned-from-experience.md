@@ -1,6 +1,6 @@
 ---
 title: "Is Civil Engineering in Nepal Worth It? Here’s What I’ve Learned from Experience 🤔"
-date: 2024-12-12T08:54:00
+date: 2024-12-08T08:54:00
 author: "Roman Thapa"
 keywords:
   [

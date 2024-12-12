@@ -1,6 +1,6 @@
 ---
 title: "Why Pursuing Engineering in Private Colleges in Kathmandu is a BIG NO! 🚨"
-date: 2024-12-12T09:01:00
+date: 2024-12-08T09:01:00
 author: "Roman Thapa"
 keywords:
   [

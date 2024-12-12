@@ -1,6 +1,6 @@
 ---
 title: "Why Everyone Should Blog in the Age of AI 🤖✍️"
-date: 2024-12-12T07:38:00
+date: 2024-12-08T07:38:00
 author: "Roman Thapa"
 keywords:
   [
