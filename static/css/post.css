@@ -137,7 +137,12 @@ h1 {
     }
 
     h1 {
-        font-size: 2.2em; /* Slightly smaller title for mobile */
+        font-size: 1.3em; /* Make the title slightly smaller for mobile */
+        text-align: left; /* Align title to the left for mobile */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Make the title slightly smaller for mobile */
         text-align: left; /* Align title to the left for mobile */
     }
 
