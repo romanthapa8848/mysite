@@ -1,3 +1,11 @@
-{{ define "main" }} {{ .Content }} {{ range site.RegularPages }}
-<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-{{ .Summary }} {{ end }} {{ end }}
+{{ define "main" }}
+  <div class="main-content">
+    {{ .Content }}
+    {{ range site.RegularPages }}
+    <div class="blog-post"> <!-- Added class 'blog-post' here -->
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <div class="summary">{{ .Content | plainify | truncate 200 }}</div> <!-- Truncate content to 200 characters -->
+    </div>
+    {{ end }}
+  </div>
+{{ end }}
