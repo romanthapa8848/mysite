@@ -1,18 +1,21 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
+<!-- Dynamic Meta Keywords -->
+{{ if .Params.keywords }} <meta name="keywords" content="{{ delimit
+.Params.keywords " , " }}" /> {{ end }}
 <title>
   {{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title
   site.Title }}{{ end }}
 </title>
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
-  <!-- Link CSS -->
-  <link rel="stylesheet" href="/css/header.css" />
-  <script src="/js/header.js"></script>
-  <link rel="stylesheet" href="/css/footer.css" />
-  <link rel="stylesheet" href="/css/baseof.css">
-  <link rel="stylesheet" href="/css/home.css">
-  <link rel="stylesheet" href="/css/post.css">
+<!-- Link CSS -->
+<link rel="stylesheet" href="/css/header.css" />
+<script src="/js/header.js"></script>
+<link rel="stylesheet" href="/css/footer.css" />
+<link rel="stylesheet" href="/css/baseof.css" />
+<link rel="stylesheet" href="/css/home.css" />
+<link rel="stylesheet" href="/css/post.css" />
 <script
   async
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1728488366569054"
