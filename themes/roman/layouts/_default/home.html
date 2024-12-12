@@ -1,12 +1,12 @@
 {{ define "main" }}
-  <div class="home-content">
-    {{ .Content }}
-    {{ range site.RegularPages }}
-    <div class="blog-post"> <!-- Added class 'blog-post' here -->
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      <div class="summary">{{ .Content | plainify | truncate 200 }}...</div> <!-- Truncate content to 200 characters -->
-      <a href="{{ .RelPermalink }}" class="read-more">Read More</a> <!-- Simple Read More link -->
-    </div>
-    {{ end }}
+<div class="home-content">
+  {{ .Content }} {{ range (sort site.RegularPages "Date" "desc") }}
+  <!-- Sort by Date in descending order -->
+  <div class="blog-post">
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <div class="summary">{{ .Content | plainify | truncate 200 }}...</div>
+    <a href="{{ .RelPermalink }}" class="read-more">Read More</a>
   </div>
+  {{ end }}
+</div>
 {{ end }}
