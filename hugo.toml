@@ -2,3 +2,8 @@ baseURL = 'https://romanthapa.com/'
 languageCode = 'en-us'
 title = 'Roman Thapa'
 theme = 'roman'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # This allows raw HTML to be rendered in markdown

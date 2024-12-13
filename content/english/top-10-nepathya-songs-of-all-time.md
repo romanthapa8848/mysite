@@ -19,7 +19,10 @@ _Nepathya_, a legendary folk-rock band from Nepal, has been enchanting audiences
 
 **Release Year**: 2001  
 **Album**: _Resham_  
-**Overview**: "Resham" is arguably Nepathya's most famous song. Its catchy melody and heartfelt lyrics celebrate love and nature, making it a staple at weddings and cultural events. The song has become synonymous with Nepali identity and pride.
+**Overview**: "Resham" is arguably Nepathya's most famous song. This heartfelt love ballad, with its catchy melody and touching lyrics, tells a story of love and longing. It has become a fan favorite during Nepathya's concerts, celebrated for its emotional depth and beautiful depiction of romance. The song's relatable themes of love and nature continue to resonate with audiences, making it one of Nepathya's most iconic tracks.
+
+<!-- Embedding YouTube video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BpeFXed4K6I" frameborder="0" allowfullscreen></iframe>
 
 ## 2. Taal Ko Pani
 
