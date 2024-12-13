@@ -28,31 +28,54 @@ _Nepathya_, a legendary folk-rock band from Nepal, has been enchanting audiences
 
 **Release Year**: 2003  
 **Album**: _Bhedako Oon Jasto_  
-**Overview**: This lively track is known for its engaging rhythm and vibrant lyrics that celebrate life. The music video, filmed at Bhaktapur Durbar Square, showcases the band’s energetic live performances, making it a favorite at family gatherings.
+**Overview**: "Taal Ko Pani" is a lively, rhythmic song by Nepathya that celebrates the joys of life, love, and festivity. The song is inspired by a folk tradition from the peripheries of Phewa Lake in Nepal, where locals would sing it with traditional Nepali instruments during weddings and other celebrations. Dating back to the 70s, this song holds special significance in the Kaski and Pumdi-Bhumdi regions, where it has been passed down through generations.
+
+The song's infectious rhythm and vibrant lyrics are matched by an energetic music video filmed at Bhaktapur Durbar Square, capturing the essence of Nepathya's live performances and their deep connection to Nepali culture. The lyrics reflect a playful, lively narrative of love, longing, and the exuberance of youth.
+
+<!-- Embedding YouTube video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p7_Weqgq1Og" frameborder="0" allowfullscreen></iframe>
 
 ## 3. Bhedako Oon Jasto
 
 **Release Year**: 1995  
 **Album**: _Bhedako Oon Jasto_  
-**Overview**: Inspired by the folk traditions of Nepal's central hills, this song features captivating melodies that reflect the beauty of rural life. Its lyrics resonate deeply with listeners, celebrating simplicity and nature.
+**Overview**: "Bhedako Oon Jasto" is a song that beautifully encapsulates the essence of Nepal's rural life, drawing inspiration from the folk traditions of the central hills. The track features soothing melodies and evocative lyrics that resonate with themes of nature, simplicity, and love. The song's imagery reflects a deep connection to the land, celebrating the beauty of the natural world while weaving a romantic narrative.
+
+The lyrics of the song are poetic and filled with vivid, symbolic imagery—capturing the purity of love and the essence of rural life. It’s a timeless piece that holds a special place in the hearts of listeners, not only for its melodious charm but also for its ability to connect the listener to the beauty and simplicity of life in Nepal’s hills.
+
+<!-- Embedding YouTube video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jy0gLuvTfXk" frameborder="0" allowfullscreen></iframe>
 
 ## 4. Sa Karnali
 
 **Release Year**: 2010  
 **Album**: _Sa Karnali_  
-**Overview**: This song pays homage to the Karnali region, known for its stunning landscapes and rich culture. Blending traditional rhythms with modern sounds, "Sa Karnali" highlights the region's unique identity and spirit.
+**Overview**: "Sa Karnali" is a musical homage to the breathtaking landscapes and rich cultural heritage of Nepal's Karnali region. Blending traditional rhythms with modern sound, the song captures the essence of the Karnali valley, from the scenic beauty to the spirit of its people. This track showcases Nepathya’s remarkable ability to fuse folk melodies with contemporary music, taking listeners on a journey to the remote, yet captivating, Dolpa district.
+
+The melody of "Sa" is rooted in the folk traditions of Karnali, particularly from the Dolpa district, where the Deuda and Jhyaure rhythms are commonly practiced. The song is not only a celebration of these rhythms but also an immersion into the culture, with lyrics inspired by the region’s long history of trade, migration, and local customs.
+
+<!-- Embedding YouTube video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mbeeEo09A5A" frameborder="0" allowfullscreen></iframe>
 
 ## 5. Aaganai Bhari
 
-**Release Year**: 1993 (officially released in 2017)  
+**Release Year**: 1993  
 **Album**: _Nepathya_  
 **Overview**: "Aaganai Bhari" is the first recorded song by Nepathya and holds historical significance as the first track on their debut album released on April 1, 1993. The song reflects themes of love and nostalgia, capturing the essence of youth and memories associated with home.
+
+<!-- Embedding YouTube video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/COKuAy0sMVQ" frameborder="0" allowfullscreen></iframe>
 
 ## 6. Jogale Huncha Bheta
 
 **Release Year**: 2010  
 **Album**: _Aina Jhyal_  
-**Overview**: This modern classic speaks about love and connection in a relatable manner. Its upbeat tempo and catchy lyrics have made it popular among younger audiences while still appealing to older fans.
+**Overview**: "Jogale Huncha Bheta" is a modern classic that captures the essence of love, connection, and life's twists. With its upbeat tempo and catchy lyrics, this song has won the hearts of both younger and older audiences. Its themes of love and fate are relatable, making it a go-to track for moments of joy and reflection. The song draws inspiration from the vibrant culture of the Manakamana area in Gorkha, where it was often heard during festivals, especially around the confluence of the Madi and Trishuli rivers.
+
+The song's upbeat rhythm and engaging melody mirror the spirit of the region—full of life, excitement, and celebration. The lyrics emphasize how love and connection happen through time and fate, speaking of encounters and memories that are cherished, even when they come unexpectedly.
+
+<!-- Embedding YouTube video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7vBL2JF6SdI" frameborder="0" allowfullscreen></iframe>
 
 ## 7. Yo Jindagani
 
