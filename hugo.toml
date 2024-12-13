@@ -7,3 +7,5 @@ theme = 'roman'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true  # This allows raw HTML to be rendered in markdown
+    [markup.goldmark.extensions]
+      typographer = true  # This enables smart punctuation like curly quotes
