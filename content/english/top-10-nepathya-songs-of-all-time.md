@@ -103,12 +103,22 @@ The song's composition is rooted in the Tamang Selo rhythm, a style of folk musi
 
 **Release Year**: 2001  
 **Album**: _Sambodhan_  
-**Overview**: "Ghatana" is a powerful commentary on social issues in Nepal, particularly focusing on tragic historical events. The band's commitment to addressing societal challenges through music is evident in this thought-provoking track.
+**Overview**: "Ghatana" is a poignant and haunting commentary on societal tragedies, inspired by real-life events. This powerful track reflects Nepathya's commitment to addressing Nepal's social challenges through music. The song stands as a somber reminder of the human cost of conflict and the deep scars left behind by violence.
 
-## 10. Mero Hajur
+The song draws from the infamous Maina Pokhari incident of 9th May 2004, where a public bus traveling from Jiri to Kathmandu was caught in a crossfire between Maoist guerrillas and army forces. The tragedy claimed eight innocent lives, with more casualties on both sides. Among the heart-wrenching scenes was the image of a surviving grandmother holding her 20-day-old grandchild, which deeply moved Nepathya's frontman, Amrit Gurung.
 
-**Release Year**: 2010  
-**Album**: _Aina Jhyal_  
-**Overview**: A beautiful love ballad that captures the essence of romance, "Mero Hajur" is often played at weddings and romantic occasions. Its heartfelt lyrics and soothing melody make it one of Nepathya's most beloved songs.
+Amrit visited the site to speak with villagers, survivors, and eyewitnesses, capturing the somber atmosphere of loss and despair. "Ghatana" blends the narrative folk art of Nepal's wandering Gandharvas with a rock ballad, creating a musical lament and a critique of the senseless violence that continues to plague societies worldwide. It stands as a tribute to the victims and a call for peace and reflection.
 
-These songs are just a glimpse into the musical brilliance of Nepathya. Each track not only showcases their ability to blend traditional Nepali sounds with modern influences but also speaks to the hearts of listeners from all walks of life. Whether you're a long-time fan or just discovering their music, these top 10 songs are a great place to start! 🎶
+<!-- Embedding YouTube video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ivxrwB1IRv4" frameborder="0" allowfullscreen></iframe>
+
+## 10. Gaun Gaun Bata Utha
+
+**Release Year**: 2018  
+**Album**: _N/A_  
+**Overview**: "Gaun Gaun Bata Utha" is one of Nepal's most iconic revolutionary anthems. Written and composed by Shyam Tamot in 1978 during the Panchayat era, the song became a symbol of resistance and social change. Known for its powerful call to action, it gained immense popularity during democratic movements, uniting people across the country in their fight against oppression.
+
+Nepathya later rearranged the song in their signature style, performing it as a staple of their peace concert tours. Its timeless message of unity and collective action continues to inspire generations, making it a rallying cry for democratic ideals and a celebration of the power of grassroots mobilization.
+
+<!-- Embedding YouTube video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BliMnFmWaBw" frameborder="0" allowfullscreen></iframe>
