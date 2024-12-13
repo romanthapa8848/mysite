@@ -57,14 +57,18 @@ The melody of "Sa" is rooted in the folk traditions of Karnali, particularly fro
 <!-- Embedding YouTube video -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mbeeEo09A5A" frameborder="0" allowfullscreen></iframe>
 
-## 5. Aaganai Bhari
+## 5. Naina Taala
 
-**Release Year**: 1993  
-**Album**: _Nepathya_  
-**Overview**: "Aaganai Bhari" is the first recorded song by Nepathya and holds historical significance as the first track on their debut album released on April 1, 1993. The song reflects themes of love and nostalgia, capturing the essence of youth and memories associated with home.
+**Release Year**: 2022  
+**Album**: _N/A_  
+**Overview**: "Naina Taala" is a heartfelt folk song rooted in the experiences of Gurkha soldiers, originally developed in the camps, barracks, and trenches during their service in India. Nepathya's frontman, Amrit Gurung, was introduced to this tune by elders from his village in Pokhara, Kaski District. The melody stayed with him, inspiring him to research its origins, refine the lyrics, and record it as a tribute to the Gurkhas' legacy.
+
+The song was first recorded in 2015 for Nepathya's tenth album and premiered at the O<sub>2</sub> Academy Brixton in London the same year, coinciding with the 200-year milestone of the Gurkha tradition. The performance was dedicated to the entire Gurkha soldier family, symbolizing the sacrifices and pride associated with their history.
+
+"Naina Taala" also reflects Nepathya's remarkable 30-year journey of maturity as a band, showcasing their deep commitment to preserving folk traditions while delivering them with a refined and contemporary touch. Its profound narrative honors the contributions and sacrifices of the Gurkhas, resonating deeply with audiences worldwide.
 
 <!-- Embedding YouTube video -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/COKuAy0sMVQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DsZoMbrxO-k" frameborder="0" allowfullscreen></iframe>
 
 ## 6. Jogale Huncha Bheta
 
