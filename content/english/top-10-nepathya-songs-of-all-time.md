@@ -4,6 +4,7 @@ date: 2024-12-11T07:43:00
 author: "Roman Thapa"
 keywords:
   [
+    "Top 10 Nepathya Songs of All Time",
     "Nepathya",
     "top Nepathya songs",
     "Nepali music",
