@@ -1,21 +1,16 @@
 {{ define "main" }}
-  <div class="main-content">
-    <!-- Post Title -->
-    <h1>{{ .Title }}</h1>
+<div class="main-content">
+  <!-- Post Title -->
+  <h1>{{ .Title }}</h1>
 
-    <!-- Author and Date -->
-    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{ $dateHuman := .Date | time.Format ":date_long" }}
-    <div class="date">
-      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-    </div>
-
-    <!-- Post Content -->
-    <div class="post-content">
-      {{ .Content }}
-    </div>
-
-    <!-- Tags Section (if any) -->
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  <!-- Author and Date -->
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }} {{
+  $dateHuman := .Date | time.Format ":date_long" }}
+  <div class="date">
+    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
   </div>
+
+  <!-- Post Content -->
+  <div class="post-content">{{ .Content }}</div>
+</div>
 {{ end }}
