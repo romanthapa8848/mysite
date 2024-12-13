@@ -81,13 +81,23 @@ The song's upbeat rhythm and engaging melody mirror the spirit of the region—f
 
 **Release Year**: 2004  
 **Album**: _Nepathya_  
-**Overview**: A motivational anthem that explores life's various challenges, "Yo Jindagani" encourages listeners to embrace their journeys with positivity. Its uplifting message has made it popular at events promoting personal growth.
+**Overview**: "Yo Jindagani" is more than just a song—it's an anthem that inspires listeners to embrace the ups and downs of life with strength and optimism. The song’s powerful message reminds us that life is full of both joy and hardship, and it’s how we navigate these challenges that truly defines us. The track's upbeat rhythm and reflective lyrics have made it a favorite at events promoting personal growth and empowerment.
+
+The music video is a compilation from Nepathya's concert, Nepathya for the Disabled, held at the Khagendra New Life Centre in Jorpati on October 12, 2004. The concert aimed to raise awareness and support for the Spinal Injury Rehabilitation Centre, showcasing Nepathya's commitment to using their platform for a meaningful cause. The video’s backdrop and the audience's enthusiasm amplify the song’s message of resilience, hope, and community.
+
+<!-- Embedding YouTube video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0So4jpFBFiE" frameborder="0" allowfullscreen></iframe>
 
 ## 8. Siran Ma Photo Chha
 
 **Release Year**: 2015  
 **Album**: _Aina Jhyal_  
-**Overview**: This poignant song addresses themes of migration and separation, reflecting the experiences of many Nepalis living abroad. Its emotional depth resonates with those who have left their homes in search of better opportunities.
+**Overview**: "Siran Ma Photo Chha" is a deeply emotional song that resonates with the experiences of Nepalis who have left their homes in search of better opportunities abroad. The song speaks to themes of migration, separation, and the longing to reunite with loved ones, encapsulating the poignant reality of many migrant workers. Its rich melody and heartfelt lyrics stir a deep sense of nostalgia and yearning, particularly for those who have been separated from their families for long periods.
+
+The song's composition is rooted in the Tamang Selo rhythm, a style of folk music from the Langtang region, which also inspired Nepathya's earlier hit Bhedako Oon Jasto. The song was inspired by the stories of Tamang porters that Nepathya encountered during a trek in Langtang, further connecting it to the cultural experiences of the region's people.
+
+<!-- Embedding YouTube video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3ImKq4nGqdM" frameborder="0" allowfullscreen></iframe>
 
 ## 9. Ghatana
 
