@@ -13,6 +13,8 @@ keywords:
 description: "Discover the top 10 Nepathya songs that have defined Nepali music and captured the hearts of fans across the world."
 ---
 
+![Nepathya Logo](https://nepathya.com.np/images/nepathya.svg)
+
 _Nepathya_, a legendary folk-rock band from Nepal, has been enchanting audiences since their inception in 1990. Their music beautifully intertwines traditional Nepali sounds with modern rock influences. Here’s a look at the top 10 Nepathya songs of all time, highlighting their cultural significance and musical brilliance.
 
 ## 1. Resham

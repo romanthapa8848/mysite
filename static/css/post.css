@@ -233,3 +233,12 @@ h1 {
   width: 560px; /* Default width for video iframe (16:9 aspect) */
   height: 315px; /* Default height for video iframe (16:9 aspect) */
 }
+
+/* Image Styling */
+.post-content img {
+  max-width: 100%; /* Make images responsive */
+  height: auto;
+  border-radius: 8px;
+  margin: 20px auto; /* Center image and add spacing above and below */
+  display: block; /* Ensure the image is treated as a block element */
+}
