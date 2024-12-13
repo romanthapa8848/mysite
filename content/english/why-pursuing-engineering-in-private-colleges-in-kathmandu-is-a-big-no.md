@@ -13,7 +13,7 @@ keywords:
 description: "Considering private engineering colleges in Kathmandu? Here’s why you should think twice before making that choice. The harsh truth about private colleges and hostels in the city."
 ---
 
-💡"Monkey sees, monkey does" – Your environment shapes who you become. And trust me, if you’re considering private engineering colleges and hostels in Kathmandu, you might want to think twice. Here’s why I strongly believe they are a huge mistake:
+"Monkey sees, monkey does"💡 – Your environment shapes who you become. And trust me, if you’re considering private engineering colleges and hostels in Kathmandu, you might want to think twice. Here’s why I strongly believe they are a huge mistake:
 
 ### 🚩 Private Colleges: The Harsh Truth
 

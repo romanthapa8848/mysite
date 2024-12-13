@@ -1,91 +1,92 @@
 /* General body styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
 /* Main container for the content */
 .home-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Smaller boxes (150px minimum) */
-    gap: 15px; /* Space between items */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 posts per row */
+  gap: 15px; /* Space between items */
+  grid-auto-rows: minmax(200px, auto); /* Ensure rows adjust to content */
 }
 
 /* Box styling for each blog post */
 .blog-post {
-    background-color: #fff; /* White background for each box */
-    border: 1px solid #ddd; /* Light border around the box */
-    padding: 15px; /* Some space inside the box */
-    margin-bottom: 20px; /* Space between blog posts */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: box-shadow 0.3s ease-in-out; /* Smooth transition on hover */
-    
-    position: relative; /* Allow absolute positioning inside */
-    width: 100%; /* Make width 100% of its container */
-    box-sizing: border-box; /* Include padding and border in the box's total width/height */
+  background-color: #fff; /* White background for each box */
+  border: 1px solid #ddd; /* Light border around the box */
+  padding: 15px; /* Some space inside the box */
+  margin-bottom: 20px; /* Space between blog posts */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition on hover */
+
+  position: relative; /* Allow absolute positioning inside */
+  width: 100%; /* Make width 100% of its container */
+  box-sizing: border-box; /* Include padding and border in the box's total width/height */
 }
 
 /* Change box shadow on hover */
 .blog-post:hover {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Styling the heading of each blog post inside the box */
 .blog-post h2 {
-    font-size: 1.1em; /* Slightly larger font size */
-    color: #333;
-    margin-bottom: 8px;
+  font-size: 1.1em; /* Slightly larger font size */
+  color: #333;
+  margin-bottom: 8px;
 }
 
 /* Styling the links inside the h2 tags */
 .blog-post h2 a {
-    text-decoration: none;
-    color: #0066cc;
-    transition: color 0.3s;
+  text-decoration: none;
+  color: #0066cc;
+  transition: color 0.3s;
 }
 
 /* Change link color on hover */
 .blog-post h2 a:hover {
-    color: #ff6600;
+  color: #ff6600;
 }
 
 /* Styling the summary (excerpt) inside the box */
 .blog-post .summary {
-    font-size: 0.9em; /* Adjusted font size */
-    color: #666;
-    line-height: 1.4;
-    margin-bottom: 10px; /* Less space at the bottom */
+  font-size: 0.9em; /* Adjusted font size */
+  color: #666;
+  line-height: 1.4;
+  margin-bottom: 10px; /* Less space at the bottom */
 }
 
 /* Optional: Remove border (underline) after the summary */
 .blog-post h2 + .summary {
-    border-bottom: none; /* Remove the border (underline) */
-    padding-bottom: 10px;
+  border-bottom: none; /* Remove the border (underline) */
+  padding-bottom: 10px;
 }
 
 /* Styling the "Read More" link */
 .read-more {
-    font-size: 0.9em; /* Slightly smaller than the summary text */
-    color: #0066cc;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
+  font-size: 0.9em; /* Slightly smaller than the summary text */
+  color: #0066cc;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 /* Change link color on hover */
 .read-more:hover {
-    color: #ff6600;
+  color: #ff6600;
 }
 
 /* Mobile-specific styles: One box per row */
 @media (max-width: 768px) {
-    .home-content {
-        grid-template-columns: 1fr; /* One box per row on mobile */
-    }
+  .home-content {
+    grid-template-columns: 1fr; /* One box per row on mobile */
+  }
 }
