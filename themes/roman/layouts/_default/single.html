@@ -12,5 +12,40 @@
 
   <!-- Post Content -->
   <div class="post-content">{{ .Content }}</div>
+
+  <!-- Social Share Section -->
+  <div class="social-share">
+    <ul>
+      <!-- Facebook Share -->
+      <li>
+        <a
+          href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}"
+          target="_blank"
+          class="facebook"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+      </li>
+
+      <!-- Twitter Share -->
+      <li>
+        <a
+          href="https://twitter.com/intent/tweet?url={{ .Permalink | urlquery }}&text={{ .Title | urlquery }}"
+          target="_blank"
+          class="twitter"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </li>
+
+      <!-- LinkedIn Share -->
+      <li>
+        <a
+          href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlquery }}"
+          target="_blank"
+          class="linkedin"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </li>
+    </ul>
+  </div>
 </div>
 {{ end }}
