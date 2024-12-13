@@ -4,6 +4,7 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
+  unicode-bidi: embed; /* Enforces proper Unicode rendering */
 }
 
 /* Main container for the content */
