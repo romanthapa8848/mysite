@@ -261,3 +261,38 @@ h1 {
     height: auto; /* Let the height adjust based on the width */
   }
 }
+
+/* Container for the iframe to maintain aspect ratio and prevent overflow */
+.iframe-container {
+  position: relative;
+  width: 100%; /* Full width of the parent container */
+  max-width: 100%; /* Prevents overflow beyond the screen width */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width = 9/16) */
+  height: 0;
+  overflow: hidden;
+  margin: 0 auto; /* Centers the iframe container */
+  border-radius: 15px; /* Rounded corners for the container */
+  border: 2px solid grey; /* Grey border for the iframe container */
+}
+
+/* Iframe itself - fills the container */
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures the iframe fills the container */
+  height: 100%; /* Ensures the iframe maintains the aspect ratio */
+  border-radius: 15px; /* Round corners for the iframe */
+}
+
+/* Mobile adjustments for iframe container */
+@media (max-width: 768px) {
+  .iframe-container {
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+  }
+
+  .iframe-container iframe {
+    width: 100%; /* Ensure it scales to 100% width */
+    height: auto; /* Automatically adjust height based on width */
+  }
+}
