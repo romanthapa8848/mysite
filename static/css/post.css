@@ -7,54 +7,105 @@
 
 /* Post Container */
 .main-content {
-  max-width: 900px; /* Set a max width for readability */
-  margin: 40px auto; /* Center the content with margin */
-  padding: 20px; /* Space inside the content box */
-  background-color: #fff; /* White background for the post */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-  border-radius: 8px; /* Rounded corners for the post container */
-  display: block; /* Ensure the container is a block-level element */
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: block;
+  position: relative;
+}
+
+/* Columns Layout */
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Left, Middle, Right columns */
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Left and Right Column Styling */
+.left-column,
+.right-column {
+  background-color: #f9f9f9; /* Light gray background for contrast */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling Links in Left and Right Columns */
+.left-column ul,
+.right-column ul {
+  list-style: none; /* Remove bullets */
+  padding: 0;
+}
+
+.left-column ul li,
+.right-column ul li {
+  margin-bottom: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+.left-column ul li a,
+.right-column ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #0066cc; /* Blue text color */
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: block;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle depth */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.left-column ul li a:hover,
+.right-column ul li a:hover {
+  background-color: #ff6600; /* Orange hover effect */
+  color: #fff; /* White text on hover */
+  transform: translateY(-3px); /* Lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+/* Middle Column with Gray Border */
+.middle-column {
+  padding: 15px;
+  background-color: #ffffff; /* Ensure white background for contrast */
+  border: 2px solid #cccccc; /* Gray border around the middle column */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Add depth with a subtle shadow */
 }
 
 /* Post Title */
 h1 {
-  font-size: 2.5em; /* Larger title for emphasis */
-  color: #333; /* Dark gray for text */
-  margin-bottom: 20px; /* Space below the title */
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
   font-weight: bold;
-  text-align: center; /* Center align the title */
+  text-align: center;
 }
 
 /* Author and Date Styling */
 .date {
-  font-size: 1em; /* Standard font size for meta data */
-  color: #777; /* Lighter gray for meta data */
-  margin-bottom: 30px; /* Space between the date and content */
-  text-align: center; /* Center the author/date block */
-}
-
-.author-info span {
-  margin-right: 10px; /* Space between author and date */
-}
-
-.author-info time {
-  font-style: italic; /* Italicize the date */
+  font-size: 1em;
+  color: #777;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 /* Post Content */
 .post-content {
-  font-size: 1.1em; /* Slightly larger font for body text */
-  color: #555; /* Medium gray for readability */
-  line-height: 1.6; /* Line spacing for readability */
-  margin-bottom: 30px; /* Space after the content */
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
 }
 
-/* Paragraph Styling */
 .post-content p {
-  margin-bottom: 20px; /* Add spacing between paragraphs */
+  margin-bottom: 20px;
 }
 
-/* Blockquote Styling */
 .post-content blockquote {
   background-color: #f9f9f9;
   border-left: 5px solid #ff6600;
@@ -64,16 +115,14 @@ h1 {
   color: #555;
 }
 
-/* Image Styling */
 .post-content img {
-  max-width: 100%; /* Make images responsive */
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
-  margin-top: 20px; /* Margin for spacing between content and images */
-  margin-bottom: 20px; /* Margin for spacing below images */
+  margin: 20px auto;
+  display: block;
 }
 
-/* Links Styling */
 .post-content a {
   color: #0066cc;
   text-decoration: none;
@@ -81,166 +130,7 @@ h1 {
 }
 
 .post-content a:hover {
-  color: #ff6600; /* Change color on hover */
-}
-
-/* Code Block Styling */
-.post-content code {
-  font-family: "Courier New", monospace;
-  background-color: #f4f4f4;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-/* Style for Unordered and Ordered Lists */
-.post-content ul,
-.post-content ol {
-  padding-left: 20px; /* Add left padding to keep bullets/number inside the text container */
-  margin-bottom: 20px; /* Space between lists and other content */
-}
-
-/* Style for List Items */
-.post-content li {
-  margin-bottom: 10px; /* Space between list items */
-  font-size: 1.1em; /* Keep the font consistent with the rest of the content */
-}
-
-/* Ensure the List Bullets or Numbers are properly aligned with text */
-.post-content ul {
-  list-style-type: disc; /* Default bullet style for unordered lists */
-}
-
-.post-content ol {
-  list-style-type: decimal; /* Default number style for ordered lists */
-}
-
-/* Optional: You can also style list item markers */
-.post-content ul li::marker,
-.post-content ol li::marker {
-  color: #0066cc; /* Bullet or number color */
-}
-
-/* For mobile devices, adjust list indentation if necessary */
-@media (max-width: 768px) {
-  .post-content ul,
-  .post-content ol {
-    padding-left: 15px; /* Slightly reduced padding on smaller screens */
-  }
-}
-
-/* Mobile Adjustments */
-@media (max-width: 768px) {
-  .main-content {
-    padding: 15px; /* Reduce padding on mobile for better use of screen space */
-    margin: 10px; /* Reduce margin for mobile devices */
-  }
-
-  h1 {
-    font-size: 1.3em; /* Make the title slightly smaller for mobile */
-    text-align: left; /* Align title to the left for mobile */
-  }
-
-  h2 {
-    font-size: 1.2em; /* Make the title slightly smaller for mobile */
-    text-align: left; /* Align title to the left for mobile */
-  }
-
-  .author-info {
-    font-size: 0.9em; /* Smaller font size for meta data on mobile */
-    text-align: left; /* Align author info to the left */
-  }
-
-  .post-content {
-    font-size: 1em; /* Slightly smaller body text for mobile */
-  }
-
-  /* Make sure the images scale properly on mobile */
-  .post-content img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  /* Adjust padding for lists on mobile */
-  .post-content ul,
-  .post-content ol {
-    padding-left: 15px; /* Slightly reduced padding on smaller screens */
-  }
-
-  /* Adjust margins for list items to avoid crowding on small screens */
-  .post-content li {
-    margin-bottom: 8px; /* Less space between list items */
-  }
-}
-
-/* Desktop and Larger Screens (default) */
-@media (min-width: 769px) {
-  .main-content {
-    max-width: 900px;
-    padding: 20px;
-    margin: 40px auto;
-  }
-
-  h1 {
-    font-size: 2.5em;
-    text-align: center;
-  }
-
-  .author-info {
-    text-align: center;
-    font-size: 1em;
-  }
-
-  .post-content {
-    font-size: 1.1em;
-  }
-}
-
-/* Main content container - Blog Post Only */
-.main-content {
-  max-width: 900px;
-  margin: 30px auto; /* Adds some space from the top */
-  padding: 30px;
-  background-color: #fff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* Slightly more pronounced shadow for depth */
-  border-radius: 10px;
-  border: 2px solid grey; /* Thicker border to make it stand out */
-  position: relative; /* Position context for shadow or other effects */
-}
-
-/* Optional: Adding inner shadow to enhance the effect */
-.main-content:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 8px;
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
-  pointer-events: none; /* Ensures the inner shadow doesn't interfere with content */
-}
-
-/* Video (iframe) Styling */
-.post-content iframe {
-  display: block; /* Make the iframe a block element for centering */
-  margin: 20px auto; /* Center the iframe horizontally with margin */
-  max-width: 100%; /* Ensure the iframe is responsive */
-  border-radius: 8px; /* Apply rounded corners to the iframe */
-  border: 2px solid #ccc; /* Grey border for the iframe */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-  width: 560px; /* Default width for video iframe (16:9 aspect) */
-  height: 315px; /* Default height for video iframe (16:9 aspect) */
-}
-
-/* Image Styling */
-.post-content img {
-  max-width: 100%; /* Make images responsive */
-  height: auto;
-  border-radius: 8px;
-  margin: 20px auto; /* Center image and add spacing above and below */
-  display: block; /* Ensure the image is treated as a block element */
+  color: #ff6600;
 }
 
 /* Social Share Section */
@@ -273,7 +163,7 @@ h1 {
 }
 
 .social-share a i {
-  font-size: 18px; /* Icon size */
+  font-size: 18px;
   color: #fff;
 }
 
@@ -281,7 +171,6 @@ h1 {
   transform: scale(1.1);
 }
 
-/* Facebook */
 .social-share a.facebook {
   background-color: #1877f2;
 }
@@ -290,7 +179,6 @@ h1 {
   background-color: #165eab;
 }
 
-/* Twitter (X) */
 .social-share a.twitter {
   background-color: #1da1f2;
 }
@@ -299,11 +187,147 @@ h1 {
   background-color: #0d95e8;
 }
 
-/* LinkedIn */
 .social-share a.linkedin {
   background-color: #0077b5;
 }
 
 .social-share a.linkedin:hover {
   background-color: #005f82;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-wrapper {
+    grid-template-columns: 1fr; /* Stacks columns vertically on smaller screens */
+  }
+
+  .left-column,
+  .right-column {
+    margin-bottom: 20px; /* Add space between stacked sections */
+  }
+
+  .main-content {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  .post-content {
+    font-size: 1em;
+  }
+}
+
+/* Style for Unordered and Ordered Lists */
+.post-content ul,
+.post-content ol {
+  padding-left: 20px; /* Add left padding to keep bullets/number inside the text container */
+  margin-bottom: 20px; /* Space between lists and other content */
+} /* Style for List Items */
+.post-content li {
+  margin-bottom: 10px; /* Space between list items */
+  font-size: 1.1em; /* Keep the font consistent with the rest of the content */
+} /* Ensure the List Bullets or Numbers are properly aligned with text */
+.post-content ul {
+  list-style-type: disc; /* Default bullet style for unordered lists */
+}
+.post-content ol {
+  list-style-type: decimal; /* Default number style for ordered lists */
+} /* Optional: You can also style list item markers */
+.post-content ul li::marker,
+.post-content ol li::marker {
+  color: #0066cc; /* Bullet or number color */
+} /* For mobile devices, adjust list indentation if necessary */
+@media (max-width: 768px) {
+  .post-content ul,
+  .post-content ol {
+    padding-left: 15px; /* Slightly reduced padding on smaller screens */
+  }
+} /* Mobile Adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px; /* Reduce padding on mobile for better use of screen space */
+    margin: 10px; /* Reduce margin for mobile devices */
+  }
+  h1 {
+    font-size: 1.3em; /* Make the title slightly smaller for mobile */
+    text-align: left; /* Align title to the left for mobile */
+  }
+  h2 {
+    font-size: 1.2em; /* Make the title slightly smaller for mobile */
+    text-align: left; /* Align title to the left for mobile */
+  }
+  .author-info {
+    font-size: 0.9em; /* Smaller font size for meta data on mobile */
+    text-align: left; /* Align author info to the left */
+  }
+  .post-content {
+    font-size: 1em; /* Slightly smaller body text for mobile */
+  } /* Make sure the images scale properly on mobile */
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  } /* Adjust padding for lists on mobile */
+  .post-content ul,
+  .post-content ol {
+    padding-left: 15px; /* Slightly reduced padding on smaller screens */
+  } /* Adjust margins for list items to avoid crowding on small screens */
+  .post-content li {
+    margin-bottom: 8px; /* Less space between list items */
+  }
+}
+
+/* Mobile setting for middle column */
+@media (max-width: 768px) {
+  /* Hide the left and right columns */
+  .left-column,
+  .right-column {
+    display: none; /* Completely hide these columns */
+  }
+
+  /* Make the middle column fill the screen without borders or shadow */
+  .middle-column {
+    width: 100%; /* Ensure it spans the full width */
+    padding: 15px; /* Add some padding for better readability */
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove the border */
+    box-shadow: none; /* Remove shadow for a clean/plain look */
+  }
+
+  /* Ensure content-wrapper doesn't interfere */
+  .content-wrapper {
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 0; /* Remove any gaps */
+    padding: 0; /* Remove padding */
+  }
+
+  /* Adjust main content container for a seamless mobile experience */
+  .main-content {
+    padding: 0; /* Remove extra padding */
+    margin: 0; /* Remove margin */
+    box-shadow: none; /* Remove box shadow */
+    background-color: transparent; /* Transparent background */
+  }
+}
+
+/* Direct Styling for iframe */
+iframe {
+  display: block; /* Ensures the iframe is treated as a block-level element */
+  max-width: 100%; /* Makes iframe responsive */
+  height: auto; /* Keeps aspect ratio intact */
+  margin: 20px auto; /* Adds vertical spacing and centers it horizontally */
+  border: none; /* Removes the border around the iframe */
+}
+
+/* Direct Styling for img */
+img {
+  display: block; /* Ensures the image is treated as a block-level element */
+  max-width: 100%; /* Makes image responsive */
+  height: auto; /* Keeps aspect ratio intact */
+  margin: 20px auto; /* Adds vertical spacing and centers it horizontally */
 }
