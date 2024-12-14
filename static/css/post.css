@@ -318,9 +318,10 @@ h1 {
 /* Direct Styling for iframe */
 iframe {
   display: block; /* Ensures the iframe is treated as a block-level element */
-  max-width: 100%; /* Makes iframe responsive */
-  height: auto; /* Keeps aspect ratio intact */
-  margin: 20px auto; /* Adds vertical spacing and centers it horizontally */
+  width: 560px; /* Default width for YouTube iframe */
+  height: 315px; /* Default height for YouTube iframe */
+  max-width: 100%; /* Ensures it doesn't exceed the container width */
+  margin: 20px auto; /* Centers it horizontally and adds vertical spacing */
   border: none; /* Removes the border around the iframe */
 }
 
